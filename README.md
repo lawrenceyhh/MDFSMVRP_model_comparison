@@ -6,7 +6,7 @@ This repository implements the three MDFSMVRP models introduced and discussed in
 ### Problem description:
 The problem discussed here is the multi-depot fleet size and mix vehicle routing problem (MDFSMVRP). The solution of the problem can be defined as a directed graph $G = (V, A)$ with V being the vertex set and A being the arc set. 
 
-### Mathematical formulation:
+### Mathematical notation:
 - Each customer $i \in V_c$ has demand $q_i \geq 0$; each depot $i \in V_d$ has zero demand $q_i$ = 0
 - Distance between $i,j \in V$ is $\beta_{ij}$ ; here we assume cost is positively reltated to distance
 - Loop arcs $(i,i)$ is not allowed: $\beta_{ii} = \inf \quad \forall i \in V_c$
